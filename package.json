@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "client": "dead-server --host=localhost --port=4926",
     "ts": "tsc --watch",
     "server": "nodemon ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
